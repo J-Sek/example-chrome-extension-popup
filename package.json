@@ -4,7 +4,8 @@
   "description": "Quick preview of current weather forecast from Meteo.pl",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "post-install": "bower install",
+    "build": "gulp"
   },
   "author": "J-Sek",
   "license": "MIT",
