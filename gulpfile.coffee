@@ -33,7 +33,6 @@ gulp.task 'copy:images', ->
 gulp.task 'copy:libs', ->
     gulp.src [
             'vendor/jquery/dist/jquery.min.js'
-            'vendor/moment/min/moment.min.js'
         ]
         .pipe gulp.dest 'dist/libs'
 
